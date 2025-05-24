@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Nelson Woods",
+    "documents": [
+      {
+        "source": "SOR_2017_233",
+        "id": 842610,
+        "label": 13
+      }
+    ]
+  },
+  {
+    "name": "Enrique Pelletier",
+    "documents": [
+      {
+        "source": "SOR_2017_233",
+        "id": 842600,
+        "label": 3
+      }
+    ]
+  },
+  {
+    "name": "Chiara Branch",
+    "documents": [
+      {
+        "source": "SOR_2002_284",
+        "id": 694435
+      }
+    ]
+  },
+  {
+    "name": "Vicente Fries",
+    "documents": [
+      {
+        "source": "SOR_2017_233",
+        "id": 842608,
+        "label": 11
+      }
+    ]
+  }
+]
