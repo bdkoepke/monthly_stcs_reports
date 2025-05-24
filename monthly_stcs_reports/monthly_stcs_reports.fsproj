@@ -7,25 +7,25 @@
 
     <ItemGroup>
         <Content Include="entities.txt">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
-        <Compile Include="Entity.fs" />
-        <Compile Include="Search.fs" />
-        <Compile Include="Union.fs" />
-        <Compile Include="Program.fs" />
+        <Compile Include="Entity.fs"/>
+        <Compile Include="Search.fs"/>
+        <Compile Include="Union.fs"/>
+        <Compile Include="Program.fs"/>
         <Content Include="known_matches.json">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="FSharp.Data" Version="6.6.0" />
-      <PackageReference Include="Lucene.Net" Version="3.0.3" />
-      <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.5" />
+        <PackageReference Include="FSharp.Data" Version="6.6.0"/>
+        <PackageReference Include="Lucene.Net" Version="3.0.3"/>
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.5"/>
     </ItemGroup>
-    
+
     <ItemGroup>
-        <Content Include="examples/*" />
+        <Content Include="examples/*"/>
     </ItemGroup>
 
 </Project>

@@ -3,9 +3,22 @@
     "name": "Nelson Woods",
     "documents": [
       {
-        "source": "SOR_2017_233",
+        "source": "CorruptForeignOfficials",
         "id": 842610,
         "label": 13
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 73
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 13
+      },
+      {
+        "source": "VenezuelaAutonomousSanctions",
+        "id": 1124621,
+        "label": 73
       }
     ]
   },
@@ -13,9 +26,60 @@
     "name": "Enrique Pelletier",
     "documents": [
       {
-        "source": "SOR_2017_233",
+        "source": "CorruptForeignOfficials",
         "id": 842600,
         "label": 3
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 39
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 52
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 59
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 109
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 123
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 70
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 118
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 3
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 23
+      },
+      {
+        "source": "VenezuelaAutonomousSanctions",
+        "id": 842443,
+        "label": 39
+      },
+      {
+        "source": "VenezuelaAutonomousSanctions",
+        "id": 842456,
+        "label": 52
+      },
+      {
+        "source": "VenezuelaAutonomousSanctions",
+        "id": 1124607,
+        "label": 59
       }
     ]
   },
@@ -23,8 +87,48 @@
     "name": "Chiara Branch",
     "documents": [
       {
-        "source": "SOR_2002_284",
+        "source": "UNSecurityCouncil",
+        "id": 6908616
+      },
+      {
+        "source": "CriminalCode",
         "id": 694435
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 33
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 60
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 59
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 37
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 4
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 61
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 25
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 35
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 26
       }
     ]
   },
@@ -32,9 +136,225 @@
     "name": "Vicente Fries",
     "documents": [
       {
-        "source": "SOR_2017_233",
+        "source": "CorruptForeignOfficials",
         "id": 842608,
         "label": 11
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 11
+      }
+    ]
+  },
+  {
+    "name": "April Merrell",
+    "documents": [
+      {
+        "source": "AntiTerrorism",
+        "id": 19
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 6
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 62
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 18
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 38
+      },
+      {
+        "source": "AntiTerrorism",
+        "id": 36
+      },
+      {
+        "source": "UNSecurityCouncil",
+        "id": 690743
+      }
+    ]
+  },
+  {
+    "name": "Pearl Stapleton",
+    "documents": [
+      {
+        "source": "AntiTerrorism",
+        "id": 44
+      }
+    ]
+  },
+  {
+    "name": "Kellie Royal",
+    "documents": [
+      {
+        "source": "AntiTerrorism",
+        "id": 7
+      }
+    ]
+  },
+  {
+    "name": "Jaden Gabriel",
+    "documents": [
+      {
+        "source": "AutonomousSanctions",
+        "id": 13
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 1
+      }
+    ]
+  },
+  {
+    "name": "Stuart Yi",
+    "documents": [
+      {
+        "source": "AutonomousSanctions",
+        "id": 98
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 81
+      }
+    ]
+  },
+  {
+    "name": "Jamal Cowan",
+    "documents": [
+      {
+        "source": "AutonomousSanctions",
+        "id": 187
+      }
+    ]
+  },
+  {
+    "name": "Phillip Wertz",
+    "documents": [
+      {
+        "source": "AutonomousSanctions",
+        "id": 1280
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 142
+      }
+    ]
+  },
+  {
+    "name": "Sierra Esquivel",
+    "documents": [
+      {
+        "source": "AutonomousSanctions",
+        "id": 943
+      }
+    ]
+  },
+  {
+    "name": "Marlon Lau",
+    "documents": [
+      {
+        "source": "AutonomousSanctions",
+        "id": 8
+      }
+    ]
+  },
+  {
+    "name": "Keshawn Jung",
+    "documents": [
+      {
+        "source": "UNSecurityCouncil",
+        "id": 6908498
+      }
+    ]
+  },
+  {
+    "name": "Jaden Gabriel",
+    "documents": [
+      {
+        "source": "UNSecurityCouncil",
+        "id": 6908457
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 13
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 1
+      }
+    ]
+  },
+  {
+    "name": "Josiah Do",
+    "documents": [
+      {
+        "source": "UNSecurityCouncil",
+        "id": 6908590
+      }
+    ]
+  },
+  {
+    "name": "Leo Lorenz",
+    "documents": [
+      {
+        "source": "UNSecurityCouncil",
+        "id": 6908004
+      },
+      {
+        "source": "UNSecurityCouncil",
+        "id": 2813149
+      }
+    ]
+  },
+  {
+    "name": "Jamal Cowan",
+    "documents": [
+      {
+        "source": "UNSecurityCouncil",
+        "id": 112494
+      },
+      {
+        "source": "UNSecurityCouncil",
+        "id": 3026942
+      },
+      {
+        "source": "UNSecurityCouncil",
+        "id": 6908069
+      },
+      {
+        "source": "UNSecurityCouncil",
+        "id": 111108
+      },
+      {
+        "source": "AutonomousSanctions",
+        "id": 187
+      },
+      {
+        "source": "UNSecurityCouncil",
+        "id": 6908833
+      }
+    ]
+  },
+  {
+    "name": "Ramsey Hennessy",
+    "documents": [
+      {
+        "source": "UNSecurityCouncil",
+        "id": 112166
+      }
+    ]
+  },
+  {
+    "name": "Jimmy McDuffie",
+    "documents": [
+      {
+        "source": "UNSecurityCouncil",
+        "id": 6908911
       }
     ]
   }

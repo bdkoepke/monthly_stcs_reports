@@ -41,9 +41,16 @@ let main (args: array<string>) =
         match args with
         | [| a; b |] -> (a, Some b)
         | [| a |] -> (a, None)
-        | _ -> failwith "Please provide either an entities.txt list and a known_matches.txt or just entities.txt."
+        | _ -> failwith "Please provide either an entities.txt list and a known_matches.json or just entities.txt."
 
-    let documentTexts = Array.append (loadEntities ()) (loadCorruptOfficials ())
+    let documentTexts =
+        Array.concat
+            [ (loadCriminalCode ())
+              (loadCorruptOfficials ())
+              (loadAntiTerrorism ())
+              (loadAutonomousSanctions ())
+              (loadUnitedNations ())
+              (loadVenezuelaMeasures ()) ]
 
     let documents =
         documentTexts
@@ -75,14 +82,19 @@ let main (args: array<string>) =
 
     let reviewMatches =
         matches
-        |> Array.filter (fun x ->
+        |> Array.choose (fun x ->
             if knownMatches.ContainsKey x.Name then
                 let names = knownMatches[x.Name]
 
-                x.Hits
-                |> Array.forall (fun hit -> hit.Document.GetField("name").StringValue |> names.Contains |> not)
+                let reviewHits =
+                    x.Hits
+                    |> Array.filter (fun hit -> hit.Document.GetField("name").StringValue |> names.Contains |> not)
+
+                match reviewHits with
+                | [||] -> None
+                | _ -> { x with Hits = reviewHits } |> Some
             else
-                true)
+                Some x)
 
     match reviewMatches with
     | [||] -> printfn "No matches found."
