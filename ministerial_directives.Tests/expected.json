@@ -1,0 +1,14 @@
+[
+  {
+    "country": "Test",
+    "url": "http://test.com",
+    "effectiveDate": "2024-01-01",
+    "updatedAt": null
+  },
+  {
+    "country": "Test2",
+    "url": "http://test2.com",
+    "effectiveDate": "2024-05-20",
+    "updatedAt": "2024-06-01"
+  }
+]
