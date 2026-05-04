@@ -35,12 +35,9 @@ let pUpdatedDate: Parser<DateOnly, unit> = pstring "Updated on" .>> spaces >>. p
 
 let pDirective (li: HtmlNode) : Parser<Directive, unit> =
     parse {
-        let aElements = li.Elements("a")
-
-        if List.isEmpty aElements then
-            return! fail "Missing 'a' element in 'li'"
-        else
-            let a = List.head aElements
+        match li.Elements("a") with
+        | [] -> return! fail "Missing 'a' element in 'li'"
+        | [ a ] ->
             let linkText = a.InnerText().Trim()
             let href = a.AttributeValue("href")
 
@@ -59,6 +56,7 @@ let pDirective (li: HtmlNode) : Parser<Directive, unit> =
                       Url = "https://fintrac-canafe.canada.ca/obligations/" + href
                       EffectiveDte = effectiveDate
                       UpdatedAt = updatedDate }
+        | _ -> return! fail "Multiple 'a' elements found in 'li'"
     }
 
 let parseDirectives (doc: HtmlDocument) : Result<Directive list, ParseError list> =
