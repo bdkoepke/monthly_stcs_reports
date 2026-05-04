@@ -29,18 +29,17 @@ let ``Extract directives returns expected current values using structural equali
 
 [<Fact>]
 let ``convertDirectivesToJson handles dates and null updatedAt correctly`` () =
-    let directives = [
-        { Country = "Test"
-          Url = "http://test.com"
-          EffectiveDte = DateOnly(2024, 1, 1)
-          UpdatedAt = None }
-        { Country = "Test2"
-          Url = "http://test2.com"
-          EffectiveDte = DateOnly(2024, 5, 20)
-          UpdatedAt = Some(DateOnly(2024, 6, 1)) }
-    ]
-    
+    let directives =
+        [ { Country = "Test"
+            Url = "http://test.com"
+            EffectiveDte = DateOnly(2024, 1, 1)
+            UpdatedAt = None }
+          { Country = "Test2"
+            Url = "http://test2.com"
+            EffectiveDte = DateOnly(2024, 5, 20)
+            UpdatedAt = Some(DateOnly(2024, 6, 1)) } ]
+
     let actualJson = convertDirectivesToJson directives
     let expectedJson = JsonValue.Load("expected.json")
-    
+
     Assert.Equal(expectedJson, actualJson)
